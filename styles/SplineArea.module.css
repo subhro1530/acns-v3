@@ -10,23 +10,27 @@
 }
 .scroll{
     margin-top: 0vh;
-    color: rgb(255, 211, 211);
-    font-size: 30px;
-    z-index: 55;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    z-index: 1;
     position: fixed;
-    top: 80%;
+    text-shadow: 10px 8px 8px black;
+    top: 35%;
+    width: 900px;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: row;
-    margin-left: 8vw;
+    flex-direction: column;
+    margin-left: 20vw;
     margin-bottom: 5px;
     text-align: center;
     /* width: 10vw; */
     word-wrap: break-word;
 }
 .profile{
-    border: 5px solid pink;
+    border: 5px solid rgb(252, 252, 250);
     border-radius: 100px;
+    padding: 5px;
     margin-right: 20px;
+    box-shadow: 2px 2px 5px 10px rgba(0,0,0,.2);
 }
