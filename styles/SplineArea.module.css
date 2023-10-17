@@ -1,0 +1,32 @@
+
+.spline{
+    margin: 0;
+    padding: 0;
+    width: 100vh;
+    height: 100vh;
+    overflow: hidden;
+    position: fixed;
+    z-index: -1;
+}
+.scroll{
+    margin-top: 0vh;
+    color: rgb(255, 211, 211);
+    font-size: 30px;
+    z-index: 55;
+    position: fixed;
+    top: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-left: 8vw;
+    margin-bottom: 5px;
+    text-align: center;
+    /* width: 10vw; */
+    word-wrap: break-word;
+}
+.profile{
+    border: 5px solid pink;
+    border-radius: 100px;
+    margin-right: 20px;
+}

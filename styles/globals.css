@@ -1,0 +1,11 @@
+/* styles/globals.css */
+/* Include other global styles or resets as needed */
+
+body {
+  font-family: 'Tilt Neon', sans-serif;
+  /* Add other font styling or body styles as needed */
+}
+*{
+  margin: 0;
+  padding: 0;
+}

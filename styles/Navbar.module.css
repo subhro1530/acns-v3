@@ -1,0 +1,149 @@
+/* Navbar.module.css */
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background: linear-gradient(to right, #682368, #251d3b, #191b28);
+  border-radius: 65px;
+  color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 96%;
+  margin: 1%;
+  z-index: 1000;
+  transition: transform 0.3s ease-in-out; /* Add smooth transition */
+}
+
+.showMobileMenu {
+  transform: translateY(0); /* Display when showMobileMenu state is true */
+}
+
+.left {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  margin: 0 10px;
+  width: 110px;
+  height: 40px;
+}
+
+.middle {
+  display: flex;
+  align-items: center;
+}
+
+.middle a {
+  color: white;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  margin: 0 5px;
+  padding: 5px 15px;
+  transition: 0.2s ease-in-out transform;
+  align-items: center;
+}
+
+.middle a:hover {
+  background-color: rgba(238, 130, 238, 0.151);
+  border-radius: 20px;
+  transform: scale(1.05);
+}
+
+.moreDropdown {
+  display: none;
+  position: absolute;
+  top: 30px;
+  left: 0;
+  background: linear-gradient(to right, #682368, #251d3b, #191b28);
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 1001;
+  width: 100px;
+}
+
+.moreButton {
+  cursor: pointer;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.moreButton:hover .moreDropdown {
+  display: flex;
+  flex-direction: column;
+}
+
+.moreDropdown a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  display: flex; /* Add this line */
+  align-items: center; /* Align text and icon vertically */
+  transition: background-color 0.2s ease-in-out;
+}
+
+
+.right {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-decoration: none;
+  color: violet;
+  border-radius: 20px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.right:hover {
+  background-color: rgba(162, 0, 186, 0.258);
+}
+
+.profileIcon {
+  font-size: 18px;
+}
+
+.right button {
+  background-color: transparent;
+  color: violet;
+  border: none;
+  font-family: 'Tilt Neon', sans-serif;
+}
+
+.mobileIcon {
+  cursor: pointer;
+  display: none; /* Initially hide on larger screens */
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .desktopMenu {
+    display: none;
+  }
+
+  .mobileIcon {
+    display: block; /* Show on smaller screens */
+  }
+
+  .middle {
+    display: none;
+  }
+
+  .right {
+    display: none;
+  }
+}
+.smallIcon{
+    font-size: 18px;
+}
+
+
+.materialIcon {
+  font-family: 'Material Icons';
+  font-size: 24px;
+  margin-right: 5px; /* Adjust spacing between icon and text */
+}
