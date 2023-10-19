@@ -9,7 +9,26 @@
     z-index: -1;
 }
 .scroll{
-    margin-top: 40vh;
+    margin-top: 150px;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    z-index: 1;
+    /* position: fixed; */
+    text-shadow: 10px 8px 8px black;
+    top: 35%;
+    width: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* margin-left: 5vw; */
+    margin-bottom: 5px;
+    text-align: center;
+    /* width: 10vw; */
+    word-wrap: break-word;
+}
+.scroll2{
+    margin-top: 34vh;
     color: rgb(255, 255, 255);
     font-size: 25px;
     z-index: 1;
@@ -40,7 +59,7 @@
     width: 100vw;
     overflow-y: scroll;
     overflow-x: hidden;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
     text-align: center;
     flex-direction: column;
@@ -48,6 +67,7 @@
 .aboutACNS{
     /* position: fixed; */
     /* top: 100vh; */
+    margin-top: 50px;
     z-index: 55;
     background-color: rgba(18, 0, 33, 0.736);
     color: white;
@@ -58,10 +78,52 @@
 .work{
     background-image: url("https://images3.alphacoders.com/649/649642.jpg");
     background-size: cover;
-    height: 100%;
+    /* height: 100%; */
     width: 100vw;
     z-index: 55;
     color: white;
     padding: 20px 50px;
-    margin: 20px 30px;
+    margin: 0px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    margin-top: 200px;
 }
+.block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: row;
+    padding: 30px 50px;
+}
+.work h1{
+    font-size: 50px;
+}
+.block .img{
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border: 8px solid rgb(255, 0, 191);
+    margin-left: 40px;
+}
+.block button{
+    background-color: transparent;
+    color: pink;
+    border: 4px solid pink;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 20px;
+    margin-top: 30px;
+    font-size: 20px;
+    transition: .2s ease-in-out;
+}
+.block button:hover{
+    background-color: pink;
+    color: rgb(90, 0, 90);
+    transform: scale(1.1);
+}
+
+
+
