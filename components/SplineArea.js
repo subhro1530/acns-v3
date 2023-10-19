@@ -41,8 +41,29 @@ const SplineArea = () => {
           width={100}
           height={100}
         />
-        <WelcomeText text="ACNS: Navigating Cosmic Discoveries Together..." />
+        <WelcomeText text="Hey there! This is Shaswata Saha, the founder of ACNS... " />
       </div>
+      <section className={styles.aboutACNS}>
+        <h2>About Me</h2>
+        <p>
+          Hi, I'm Shaswata Saha, a cybersecurity engineer based in India. With a
+          rich background in securing systems across various Linux platforms, I
+          bring a robust approach to cybersecurity. Alongside my cybersecurity
+          endeavors, I'm also deeply passionate about web development. My goal
+          is to craft websites that are not only technically sound but also
+          user-friendly and highly interactive, creating a seamless online
+          experience.
+        </p>
+        <p>
+          Living in India has provided me with diverse perspectives, and I
+          leverage this cultural richness in my work. My journey as a
+          professional has been marked by a commitment to excellence, continuous
+          learning, and a relentless pursuit of innovation. I believe in the
+          power of technology to make a positive impact, and my work reflects
+          this belief.
+        </p>
+        {/* Add any additional content or styling as needed */}
+      </section>
     </div>
   );
 };

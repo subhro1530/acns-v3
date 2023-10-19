@@ -2,15 +2,16 @@
 import React from "react";
 import Navbar from "../components/Navbar";
 import SplineArea from "@/components/SplineArea";
+import WorksBg from "@/components/WorksBg";
 
-const Home = () => {
+const works = () => {
   return (
     <div>
       <Navbar />
-      <SplineArea />
+      <WorksBg/>
       {/* Your content goes here */}
     </div>
   );
 };
 
-export default Home;
+export default works;

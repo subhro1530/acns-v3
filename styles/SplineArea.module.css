@@ -1,19 +1,19 @@
 
 .spline{
-    margin: 0;
+    /* margin-top: 29.1vh; */
     padding: 0;
-    width: 100vh;
+    width: 100vw;
     height: 100vh;
     overflow: hidden;
     position: fixed;
     z-index: -1;
 }
 .scroll{
-    margin-top: 0vh;
+    margin-top: 20vh;
     color: rgb(255, 255, 255);
     font-size: 25px;
     z-index: 1;
-    position: fixed;
+    /* position: fixed; */
     text-shadow: 10px 8px 8px black;
     top: 35%;
     width: 900px;
@@ -21,7 +21,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-left: 20vw;
+    /* margin-left: 5vw; */
     margin-bottom: 5px;
     text-align: center;
     /* width: 10vw; */
@@ -34,3 +34,23 @@
     margin-right: 20px;
     box-shadow: 2px 2px 5px 10px rgba(0,0,0,.2);
 }
+.body{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+.aboutACNS{
+    /* position: fixed; */
+    /* top: 100vh; */
+    z-index: 55;
+    background-color: rgba(18, 0, 33, 0.736);
+    color: white;
+    width: 80vw;
+    border-radius: 50px;
+    padding: 50px 20px;
+}
+
