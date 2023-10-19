@@ -43,6 +43,18 @@ const WorksBg = () => {
         />
         <WelcomeText text="Hey there! Here are some of my coolest stuffs so just scroll down to view them... " />
       </div>
+      <div className={styles.work}>
+        <h1>My Works</h1>
+        <div className={styles.block}>
+          <h2>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
+            quaerat quas blanditiis perferendis distinctio debitis veritatis
+            eaque cupiditate. Sapiente vel quisquam est consequatur cupiditate
+            beatae voluptatum quo excepturi maiores rerum?
+          </h2>
+          {/* <Image src=""></Image> */}
+        </div>
+      </div>
     </div>
   );
 };

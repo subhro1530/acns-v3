@@ -46,10 +46,10 @@ const SplineArea = () => {
       <section className={styles.aboutACNS}>
         <h2>About Me</h2>
         <p>
-          Hi, I'm Shaswata Saha, a cybersecurity engineer based in India. With a
+          Hi, I`&apos;`m Shaswata Saha, a cybersecurity engineer based in India. With a
           rich background in securing systems across various Linux platforms, I
           bring a robust approach to cybersecurity. Alongside my cybersecurity
-          endeavors, I'm also deeply passionate about web development. My goal
+          endeavors, I`&apos;`m also deeply passionate about web development. My goal
           is to craft websites that are not only technically sound but also
           user-friendly and highly interactive, creating a seamless online
           experience.

@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 import Link from "next/link";
 import styles from "../styles/Navbar.module.css";
+import Image from "next/image";
 
 const Navbar = () => {
   const [showMobileMenu, setShowMobileMenu] = useState(false);
@@ -39,7 +40,7 @@ const Navbar = () => {
         </div>
 
         <Link href="/" className={styles.left}>
-          <img src="/Full-Logo.png" alt="Logo" className={styles.logo} />
+          <Image src="/Full-Logo.png" alt="Logo" height={40} width={110} className={styles.logo} />
         </Link>
 
         <div
