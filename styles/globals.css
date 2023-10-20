@@ -12,3 +12,12 @@ html {
   margin: 0;
   padding: 0;
 }
+::-moz-selection { /* Code for Firefox */
+  color: pink;
+  background: rgb(255, 0, 123);
+}
+
+::selection {
+  color: pink;
+  background: rgb(255, 0, 123);
+}
