@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import styles from "../styles/SplineArea.module.css";
 import Spline from "@splinetool/react-spline";
 import Image from "next/image";
+import Link from "next/link";
 
 const WelcomeText = ({ text }) => {
   const [displayText, setDisplayText] = useState("");
@@ -46,50 +47,51 @@ const WorksBg = () => {
       <div className={styles.work}>
         <h1>My Works</h1>
         <div className={styles.block}>
-          <h2>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
-            quaerat quas blanditiis perferendis distinctio debitis veritatis
-            eaque cupiditate. Sapiente vel quisquam est consequatur cupiditate
-            beatae voluptatum quo excepturi maiores rerum?
+          <div>
+            <h3>Bal Adhikar FunQuest</h3> <br />
+            <p>
+              Welcome to "Bal Adhikar FunQuest" – your passport to a world where
+              learning about children's rights is an adventure! Crafted for the
+              Smart India Hackathon, this gamified platform turns understanding
+              rights into a thrilling quest. Join us in this digital realm,
+              where young minds embark on a journey to grasp and celebrate their
+              rights in a fun and interactive way. Let the Bal Adhikar FunQuest
+              be your guide to empowering the future generation with knowledge
+              and excitement!
+              <br />
+              <br />
+              Deployed At: <small>bal-adhikar-funquest.vercel.app</small>
+            </p>
             <br />
-            <button className={styles.btn}>Observe</button>
-          </h2>
+          </div>
           <Image
             className={styles.img}
-            src="/sample.jpg"
-            height={300}
+            src="/sih.png"
+            height={350}
             width={700}
           ></Image>
         </div>
         <div className={styles.block}>
-          <h2>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
-            quaerat quas blanditiis perferendis distinctio debitis veritatis
-            eaque cupiditate. Sapiente vel quisquam est consequatur cupiditate
-            beatae voluptatum quo excepturi maiores rerum?
+          <div>
+            <h3>ClimaGuard</h3> <br />
+            <p>
+              Welcome to ClimaGuard, your personalized climate control
+              headquarters! With ClimaGuard, you're in charge. Set temperature
+              limits tailored to your comfort, and let us handle the rest.
+              Receive timely notifications, ensuring your space is always just
+              the way you like it. Take control, stay informed, and experience
+              climate management like never before. Welcome to a world where
+              comfort meets convenience – welcome to ClimaGuard.
+              <br />
+              <br />
+              Deployed At: <small>https://climaguard.vercel.app/</small>
+            </p>
             <br />
-            <button className={styles.btn}>Observe</button>
-          </h2>
+          </div>
           <Image
             className={styles.img}
-            src="/sample.jpg"
-            height={300}
-            width={700}
-          ></Image>
-        </div>
-        <div className={styles.block}>
-          <h2>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
-            quaerat quas blanditiis perferendis distinctio debitis veritatis
-            eaque cupiditate. Sapiente vel quisquam est consequatur cupiditate
-            beatae voluptatum quo excepturi maiores rerum?
-            <br />
-            <button className={styles.btn}>Observe</button>
-          </h2>
-          <Image
-            className={styles.img}
-            src="/sample.jpg"
-            height={300}
+            src="/climaguard.png"
+            height={320}
             width={700}
           ></Image>
         </div>

@@ -5,6 +5,9 @@ body,button,input {
   font-family: 'Tilt Neon', sans-serif;
   /* Add other font styling or body styles as needed */
 }
+html {
+  scroll-behavior: smooth;
+}
 *{
   margin: 0;
   padding: 0;
