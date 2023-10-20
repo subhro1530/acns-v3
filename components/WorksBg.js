@@ -50,14 +50,14 @@ const WorksBg = () => {
           <div>
             <h3>Bal Adhikar FunQuest</h3> <br />
             <p>
-              Welcome to "Bal Adhikar FunQuest" – your passport to a world where
-              learning about children&quot;s rights is an adventure! Crafted for the
-              Smart India Hackathon, this gamified platform turns understanding
-              rights into a thrilling quest. Join us in this digital realm,
-              where young minds embark on a journey to grasp and celebrate their
-              rights in a fun and interactive way. Let the Bal Adhikar FunQuest
-              be your guide to empowering the future generation with knowledge
-              and excitement!
+              Welcome to &quot;Bal Adhikar FunQuest&quot; – your passport to a
+              world where learning about children&quot;s rights is an adventure!
+              Crafted for the Smart India Hackathon, this gamified platform
+              turns understanding rights into a thrilling quest. Join us in this
+              digital realm, where young minds embark on a journey to grasp and
+              celebrate their rights in a fun and interactive way. Let the Bal
+              Adhikar FunQuest be your guide to empowering the future generation
+              with knowledge and excitement!
               <br />
               <br />
               Deployed At: <small>bal-adhikar-funquest.vercel.app</small>
@@ -76,12 +76,12 @@ const WorksBg = () => {
             <h3>ClimaGuard</h3> <br />
             <p>
               Welcome to ClimaGuard, your personalized climate control
-              headquarters! With ClimaGuard, you&quot;re in charge. Set temperature
-              limits tailored to your comfort, and let us handle the rest.
-              Receive timely notifications, ensuring your space is always just
-              the way you like it. Take control, stay informed, and experience
-              climate management like never before. Welcome to a world where
-              comfort meets convenience – welcome to ClimaGuard.
+              headquarters! With ClimaGuard, you&quot;re in charge. Set
+              temperature limits tailored to your comfort, and let us handle the
+              rest. Receive timely notifications, ensuring your space is always
+              just the way you like it. Take control, stay informed, and
+              experience climate management like never before. Welcome to a
+              world where comfort meets convenience – welcome to ClimaGuard.
               <br />
               <br />
               Deployed At: <small>https://climaguard.vercel.app/</small>
