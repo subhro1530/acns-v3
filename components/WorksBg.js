@@ -51,7 +51,7 @@ const WorksBg = () => {
             <h3>Bal Adhikar FunQuest</h3> <br />
             <p>
               Welcome to "Bal Adhikar FunQuest" – your passport to a world where
-              learning about children's rights is an adventure! Crafted for the
+              learning about children&quot;s rights is an adventure! Crafted for the
               Smart India Hackathon, this gamified platform turns understanding
               rights into a thrilling quest. Join us in this digital realm,
               where young minds embark on a journey to grasp and celebrate their
@@ -76,7 +76,7 @@ const WorksBg = () => {
             <h3>ClimaGuard</h3> <br />
             <p>
               Welcome to ClimaGuard, your personalized climate control
-              headquarters! With ClimaGuard, you're in charge. Set temperature
+              headquarters! With ClimaGuard, you&quot;re in charge. Set temperature
               limits tailored to your comfort, and let us handle the rest.
               Receive timely notifications, ensuring your space is always just
               the way you like it. Take control, stay informed, and experience
