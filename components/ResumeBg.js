@@ -39,7 +39,7 @@ const ResumeBg = () => {
     <div className={styles.body}>
       <Spline
         className={styles.spline}
-        scene="https://prod.spline.design/AZb1ZFLjTZqVcYHM/scene.splinecode"
+        scene="https://prod.spline.design/LuYFrkq4vDI96Wt8/scene.splinecode"
       />
       <WelcomeText text="Hey there! Here is my Resume/CV... " />
     </div>
