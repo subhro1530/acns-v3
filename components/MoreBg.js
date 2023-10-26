@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import styles from "../styles/SplineArea.module.css";
+import styles from "../styles/More.module.css";
 import Spline from "@splinetool/react-spline";
 import Image from "next/image";
 import Link from "next/link";
@@ -25,8 +25,7 @@ const WelcomeText = ({ text }) => {
   return <h1>{displayText}</h1>;
 };
 
-
-const SplineArea = () => {
+const MoreBg = () => {
   return (
     <div className={styles.body}>
       {/* Your Spline component */}
@@ -43,40 +42,21 @@ const SplineArea = () => {
           width={100}
           height={100}
         />
-        <WelcomeText text="Hey there! Here are some resources to reach me... " />
+        <WelcomeText text="Hey there! Here are some more pages to view... " />
       </div>
 
+      {/* Links */}
       <div className={styles.links}>
-        <Link
-          href="https://github.com/subhro1530"
-          target="_blank"
-          className={styles.link}
-        >
-          <Image src="/github.png" height={40} width={40}></Image> <p>GitHub</p>
+        <Link href="/tools" className={styles.link}>
+          <Image src="/tools.png" height={40} width={40}></Image> <p>Tools</p>
         </Link>
-        <Link
-          href="https://www.linkedin.com/in/shaswata-saha-74b209251/"
-          target="_blank"
-          className={styles.link}
-        >
-          <Image src="/linkedin.png" height={40} width={40}></Image>
-          <p>LinkedIn</p>
+        <Link href="/learning" className={styles.link}>
+          <Image src="/learn.png" height={40} width={40}></Image>
+          <p>Learning</p>
         </Link>
-        <Link
-          href="mailto:shaswata.ssaha@gmail.com"
-          target="_blank"
-          className={styles.link}
-        >
-          <Image src="/email.png" height={40} width={40}></Image>
-          <p>Email</p>
-        </Link>
-        <Link
-          href="https://twitter.com/ShaswataSaha10"
-          target="_blank"
-          className={styles.link}
-        >
-          <Image src="/x.png" height={40} width={40}></Image>
-          <p>Twitter</p>
+        <Link href="/company" className={styles.link}>
+          <Image src="/company.svg" height={40} width={40}></Image>
+          <p>Company</p>
         </Link>
         {/* Add more links as needed */}
       </div>
@@ -84,4 +64,4 @@ const SplineArea = () => {
   );
 };
 
-export default SplineArea;
+export default MoreBg;

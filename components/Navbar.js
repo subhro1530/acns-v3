@@ -75,7 +75,7 @@ const Navbar = () => {
             Contact
           </Link>
 
-          <div className={styles.moreButton}>
+          <Link href="/more" className={styles.moreButton}>
             {showMobileMenu ? (
               <span className={`${styles.materialIcon} ${styles.smallIcon}`}>
                 more_vert
@@ -86,20 +86,7 @@ const Navbar = () => {
               </span>
             )}
             {" More "}
-            {showMoreDropdown && (
-              <div className={styles.moreDropdown}>
-                <Link
-                  href="/links"
-                  className={`${styles.materialIcon} ${styles.smallIcon}`}
-                ></Link>
-                <Link
-                  href="/products"
-                  className={`${styles.materialIcon} ${styles.smallIcon}`}
-                ></Link>
-                {/* Add other dropdown links here... */}
-              </div>
-            )}
-          </div>
+          </Link>
         </div>
 
         <div className={styles.right}>
