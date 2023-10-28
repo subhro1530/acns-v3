@@ -47,8 +47,8 @@ const MoreBg = () => {
 
       {/* Links */}
       <div className={styles.links}>
-        <Link href="/tools" className={styles.link}>
-          <Image src="/tools.png" height={40} width={40}></Image> <p>Tools</p>
+        <Link href="/product" className={styles.link}>
+          <Image src="/tools.png" height={40} width={40}></Image> <p>Products</p>
         </Link>
         <Link href="/learning" className={styles.link}>
           <Image src="/learn.png" height={40} width={40}></Image>
